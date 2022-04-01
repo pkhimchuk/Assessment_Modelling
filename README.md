@@ -1,5 +1,5 @@
 # Assessment index modelling - solution
-This script calculates levels of index with constituents limited to 3 stocks weights 50%,  25%, 25% according to their market cap. Index is rebalanced at the beginning of every month. 
+This script calculates levels of index with constituents limited to 3 stocks weights 50%,  25%, 25% according to their market cap. Index is rebalanced at the beginning of every month. Results are exported to csv file.
 
 # Business logic
 
