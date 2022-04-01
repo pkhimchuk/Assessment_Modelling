@@ -106,7 +106,7 @@ class IndexModel:
 
             index_final.loc[i,'Index_Level'] = start_val*(1+mtd_return)/(1+mtd_return_prev*rebal_adj)
 
-        # fune tuning
+        # finetuning
         index_final = index_final[['Date','Index_Level']]
         
         self.index_results = index_final        
