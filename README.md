@@ -1,13 +1,16 @@
 # Assessment index modelling - solution
-
-Class initialisation function contains general parameters used to calculate index:
- * path to file with market data
- * weights 
- * index starting value
-Default values of these parameters are set to corresponding inputs of the exercise.
-Empty DataFrame is also created to store index levels.
+This script calculates levels of index with constituents limited to 3 stocks weights 50%,  25%, 25% according to their market cap. Index is rebalanced at the beginning of every month. 
 
 # Business logic
+
+Class initialisation function contains general parameters used to calculate index:
+ * path to file with the market data;
+ * weights; 
+ * index starting value.
+Default values of these parameters are set to corresponding inputs of the exercise.
+Empty DataFrame is created to store index levels.
+
+
 Index levels calculation function contains all the business logic of the exercise. Steps of the calculation:
  * import and check the data;
  * get rebalancing dates;
