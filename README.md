@@ -20,7 +20,7 @@ Index levels calculation function contains all the business logic of the exercis
  * get ranks and corresponding weights;
  * calculation of stocks MTD returns;
  * calculation of index levels;
- * writing results to empty DataFrame created at initialisation step.
+ * writing results to empty DataFrame created at the initialisation step.
 
 # Output
 Results are exported to csv file. 
