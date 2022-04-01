@@ -7,6 +7,7 @@ Class initialisation function contains general parameters used to calculate inde
  * path to file with the market data;
  * weights; 
  * index starting value.
+
 Default values of these parameters are set to corresponding inputs of the exercise.
 Empty DataFrame is created to store index levels.
 
